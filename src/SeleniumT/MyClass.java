@@ -13,7 +13,7 @@ public class MyClass {
 
     public static void main(String[] args) {
     	// create a Firefox Web Driver
-    	System.setProperty("webdriver.gecko.driver", "D:/Drivers/Selenium/geckodriver.exe");
+    	System.setProperty("webdriver.gecko.driver", "/home/live2303/driver/geckodriver");
     			WebDriver driver = new FirefoxDriver();
     			// open the browser and go to JavaTutorial Network Website
     			/*driver.get("https://javatutorial.net");
